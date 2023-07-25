@@ -1,0 +1,60 @@
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px;
+}
+.contactCt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.formCT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 600px;
+    align-items: center;
+}
+input,textarea{
+    width: 60%;
+    font-weight: bold;
+    background: transparent;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #c5c5c5;
+    background-color: #2E2A2B;
+    font-size:1em ;
+    letter-spacing: 0.05em;
+    z-index: 10;
+    resize: none;
+}
+button{
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    display: flex;
+    border: none;
+    background-color: #2E2A2B;
+    color: #DC143C;
+    outline: none;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 0.3rem;
+}

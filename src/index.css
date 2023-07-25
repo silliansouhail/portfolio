@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+::-webkit-progress-bar{
+  display: none;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  font-family:'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to top,#411018, #240b36); 
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+.connect__btn{
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 700;
+  border: 1px solid #D1DEDE;
+  border-radius: 10px;
+  color: #3A4454;
+  font-size: 18px;
+  padding: 18px 34px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  gap: 0.8rem;
+}
+.connect__btn:hover {
+  color: crimson;
+  background-color: #3A4454;
+  transition: 0.3s ease-in-out;
+}
