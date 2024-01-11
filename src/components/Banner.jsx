@@ -53,7 +53,7 @@ const Banner = () => {
                     <p>As a web developer,
                         my passion lies in creating visually appealing,
                         user-friendly, and responsive websites that enhance the user experience.
-                        With 3 years of experience (for now) in the field, I am well-versed in various programming languages,
+                        With +3 years of experience  in the field, I am well-versed in various programming languages,
                         including HTML, CSS, JavaScript,React and Nodejs.
                         My expertise lies in creating custom themes,
                         building e-commerce websites, and optimizing websites for speed and search engine rankings.
